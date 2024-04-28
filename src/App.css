@@ -1,0 +1,20 @@
+/* App.css */
+
+.connector-line {
+    position: absolute;
+    width: 2px;
+    background-color: #000; /* Adjust color as needed */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .connector-line.light {
+    top: 0;
+    height: calc(50% - 25px); /* Adjust based on icon size */
+  }
+  
+  .connector-line.dark {
+    bottom: 0;
+    height: calc(50% - 25px); /* Adjust based on icon size */
+  }
+  
